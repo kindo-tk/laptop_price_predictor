@@ -1,0 +1,18 @@
+# Virtual Environments
+venv/
+env/
+.venv/
+.env
+
+# Python byte code (generated files)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE settings (VS Code / PyCharm)
+.vscode/
+
+.streamlit/secrets.toml
