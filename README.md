@@ -117,7 +117,7 @@ laptop-price-predictor/
 6. **Run the Streamlit application:**
 
     ```sh
-    streamlit run streamlit_app.py
+    streamlit run app.py
     ```
 ---
 ## Usage
