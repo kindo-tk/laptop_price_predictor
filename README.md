@@ -160,7 +160,7 @@ For any inquiries or feedback, please contact:
 
 ### Demo
 
-Visit the live app:<a href="https://ipldataanalysisproject.streamlit.app/" > Click here </a>
+Visit the live app:<a href = "https://laptoppricepredictorbytk.streamlit.app/" > Click here </a>
 
 <img src="https://github.com/kindo-tk/images/blob/main/ui.png" width="600">
 <img src="https://github.com/kindo-tk/images/blob/main/ui2.png" width="600">
