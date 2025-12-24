@@ -76,7 +76,9 @@ laptop-price-predictor/
 │   ├── laptop_data.csv             # Original dataset
 │   └── cleaned_data.csv            # Cleaned & feature-engineered dataset
 │
+├── .dockerignore                   # Files ignored by Docker
 ├── .gitignore                      # Files & folders ignored by Git
+├── Dockerfile                      # Docker configuration
 ├── LICENSE                         # Project license
 ├── requirements.txt                # Project dependencies
 └── README.md                       # Project documentation
@@ -119,6 +121,27 @@ laptop-price-predictor/
     ```sh
     streamlit run app.py
     ```
+---
+
+### 🐳 Docker Usage
+
+If you prefer using Docker, you can pull the pre-built image from Docker Hub and run it instantly:
+
+1. **Pull the Docker Image:**
+
+    ```bash
+    docker pull kindotk/laptop_price_predictor
+    ```
+
+2. **Run the Container:**
+
+    ```bash
+    docker run -p 8501:8501 kindotk/laptop_price_predictor
+    ```
+
+3. **Access the App:**
+   Open your browser and navigate to `http://localhost:8501`
+
 ---
 ## Usage
 
